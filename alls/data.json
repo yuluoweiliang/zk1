@@ -1,0 +1,12 @@
+{
+    "code":1,
+    "tops":{
+        "txt1":["换轮胎","换轮胎","换轮胎","换轮胎"],
+        "txt2":["清月匹配","清月匹配","清月匹配","清月匹配"],
+        "imgs":["imgs/2.jpg","imgs/2.jpg","imgs/2.jpg","imgs/2.jpg"]
+    },
+    "main":{
+        "img":["imgs/3.jpg","imgs/3.jpg","imgs/3.jpg","imgs/3.jpg","imgs/3.jpg","imgs/3.jpg","imgs/3.jpg","imgs/3.jpg","imgs/3.jpg","imgs/3.jpg","imgs/3.jpg","imgs/3.jpg"],
+        "txt":["自主宝箱","自主宝箱","自主宝箱","自主宝箱","自主宝箱","自主宝箱","自主宝箱","自主宝箱","自主宝箱","自主宝箱","自主宝箱","自主宝箱","更多"]
+    }
+}

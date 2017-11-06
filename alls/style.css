@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+body{
+    font-size: .2rem;
+}
+
+#box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#box header{
+    width: 100%;
+    height: .5rem;
+    border-bottom: .01rem solid #ccc;
+}
+#box header b{
+    font-weight: normal;
+}
+#box header span{
+    display: inline-block;
+    text-align: center;
+    line-height: .6rem;
+}
+#box header span:nth-child(1){
+    width: 25%;
+}
+#box header span:nth-child(2){
+    width: 48%;
+}
+#box header span:nth-child(3){
+    width: 25%;
+}
+
+section{
+    width: 100%;
+    flex: 1;
+}
+
+section .tops{
+    width: 100%;
+}
+
+section .tops>dl{
+    float: left;
+    width: 21%;
+    text-align: center;
+    margin-left: 3%;
+    background: #eee;
+}
+section .tops>dl>dd{
+    font-size: 14px;
+}
+section .tops>dl>dd span{
+    display: block;
+}
+.hui{
+    width: 100%;
+    height: .2rem;
+    background: #ccc;
+    margin-top: 1.1rem;
+}
+section .mains{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+section .mains dl{
+    width: 24.41%;
+    text-align: center;
+    border:.01rem solid #eee;
+    padding-bottom: 7%;
+    font-size: 14px;
+}
+section .mains dl dt{
+    width: 100%;
+    height: 60%;
+    padding-top: 20%;
+}
+.banner{
+    width: 100%;
+    background: #eee;
+}
+.banner img{
+    width: 98%;
+    margin: 1%;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+}
+footer dl{
+    width: 25%;
+    text-align: center;
+    font-size: .14rem;
+    line-height: .23rem;
+}
+.bots{
+    width: 100%;
+    display: flex;
+}
+.bots dl:nth-child(1){
+    width: 40%;
+}
+.bots dl:nth-child(2){
+    width: 60%;
+    display: flex;
+    font-size: .14rem;
+}
+.bots dl:nth-child(2) p:nth-child(1){
+    margin-top: .05rem;
+    font-size: .2rem;
+    color:lime;
+}
+.zz{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;top:0px;
+    text-align: center;
+}
+.zz img{
+    margin-top: 3rem;
+    width: 46%;
+}
